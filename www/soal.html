@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="galleria/galleria.classic.css">
+    <link rel="stylesheet" type="text/css" href="framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" type="text/css" href="framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" type="text/css" href="css/soal_main.less.css" class="main-less">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <script src="intelxdk.js"></script>
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="framework7/js/framework7.min.js"></script>
+    <script type="application/javascript" src="galleria/galleria-1.3.6.min.js"></script>
+    <script type="application/javascript" src="galleria/galleria.classic.min.js"></script>
+    <script type="application/javascript" src="galleria/galleria-startup.js"></script>
+  </head>
+
+  <body>
+    <div class="uwrap views">
+      <div class="upage view-main view" id="mainpage">
+        <div class="pages">
+
+          <div data-page="soal" class="page toolbar-fixed">
+
+            <div class="navbar inner-element uib_w_1" data-uib="framework7/header" data-ver="0">
+              <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link open-panel"><i class="icon icon-bars"></i>No. 1</a>
+
+                </div>
+                <div class="center labeltext">00:00:00</div>
+                <div class="right">
+                  <a href="#" class="link icon-only "> <i class="f7-icons">close</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           <div class="page-content">
+  <div class="swiper-custom">
+    <div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-pagination=".swiper-pagination" data-paginationHide="true"  >
+      
+      <div class="swiper-wrapper" >
+         
+        <div class="swiper-slide"><span><img src="image/bedagambar030201.PNG" style="width:100%;"></span></div>
+        <div class="swiper-slide"><span><img src="image/kverbalanalogi010301.PNG" style="width:100%;"></span></div>
+        <div class="swiper-slide"><span>Slide 3</span></div>
+        <div class="swiper-slide"><span>Slide 4</span></div>
+        <div class="swiper-slide"><span>Slide 5</span></div>
+        <div class="swiper-slide"><span>Slide 6</span></div>
+        <div class="swiper-slide"><span>Slide 7</span></div>
+   
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+            <div class="toolbar">
+              <div class="toolbar-inner">
+                <a href="#" class="link active"  onclick="mundur()">
+                  <i class="f7-icons">left</i>
+                </a>
+                <a href="#" class="link">
+                  A
+
+                </a>
+                <a href="#" class="link">
+                  B
+
+                </a>
+                <a href="#" class="link">
+                  C
+
+                </a>
+                <a href="#" class="link">
+                  D
+
+                </a>
+                <a href="#" class="link">
+                 E
+
+                </a>
+                <a href="#" class="link" onclick="maju()">
+                  <i class="f7-icons">right
+                </i>
+
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script type="application/javascript" src="framework7/my-app.js"></script>
+  </body>
+
+</html>

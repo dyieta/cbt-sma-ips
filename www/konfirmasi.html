@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" type="text/css" href="framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" type="text/css" href="css/konfirmasi_main.less.css" class="main-less">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <script src="intelxdk.js"></script>
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="framework7/js/framework7.min.js"></script>
+  </head>
+
+  <body>
+    <div class="uwrap views">
+      <div class="panel-overlay"></div>
+      <div class="upage view-main view" id="mainpage">
+        <div class="pages">
+
+          <div class="page navbar-fixed toolbar-fixed">
+            <div class="navbar inner-element uib_w_1" data-uib="framework7/header" data-ver="0">
+              <div class="navbar-inner">
+                <div class="left">
+                  <a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span>
+                  </a>
+                </div>
+                <div class="center labeltext">Konfirmasi</div>
+                <div class="right">
+
+                </div>
+              </div>
+            </div>
+              <div class="page-content">
+            <div class="card demo-card-header-pic">
+              
+                <div class="card-content">
+    <div class="card-content-inner">
+                 <div class="list-block">
+                      <ul>
+                           <li class="item-content">
+                               <div class="item-inner">
+                                    <div class="item-title">Mata Uji</div>
+                                    <div class="item-after  badge color-lightblue" id="enamamapel">{{nama}}</div>
+                                </div>
+                          </li>
+                            <li class="item-content">
+                               <div class="item-inner">
+                                    <div class="item-title">Jumlah Soal</div>
+                                    <div class="item-after badge color-lightblue" id="ejumlahsoal">{{soal}} Soal</div>
+                                </div>
+                          </li>
+                            <li class="item-content">
+                               <div class="item-inner">
+                                    <div class="item-title">Waktu</div>
+                                    <div class="item-after badge color-lightblue" id="ewaktukerjakan">{{waktu}} Menit</div>
+                                </div>
+                          </li>
+                     </ul>
+                </div>
+                    </div>
+                </div>
+            </div> 
+                    <div class="content-block">
+                     <a href="#" class="button active" onclick="mulai()">Mulai </a>
+                
+                </div>
+                 
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-left panel-cover wrap-element uib_w_3" data-uib="framework7/left_sidebar" data-ver="0" id="pkiri">
+      <div class="panel-overlay"></div>
+      <div class="col uib_col_1 single-col" data-uib="layout/col" data-ver="0">
+        <div class="widget-container content-area vertical-col">
+          <span class="uib_shim"></span>
+        </div>
+      </div>
+    </div>
+    <script type="application/javascript" src="framework7/my-app.js">
+      <div class="panel-overlay"></div>
+    </script>
+  </body>
+
+</html>
